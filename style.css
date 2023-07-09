@@ -39,6 +39,12 @@
     font-size: 55px;
     font-weight: bold;
     color: white;
+    text-align: center;
+}
+
+.black{
+    color: black;
+    margin: 34px;
 }
 
 .Digital{
@@ -143,7 +149,7 @@
     width: 70%;
     background-color: rgba(228, 25, 25, 0.8);
     align-items: center;
-    margin: -30px auto auto;
+    margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -151,4 +157,35 @@
 .call-icon{
     width: 70px;
     margin-bottom: 20px;
+}
+
+/* cards section */
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.card>h3{
+    margin: 12px;
+}
+
+.card{
+    width: 220px;
+    height: 330px;
+    background-color: rgb(113, 105, 120);
+    box-shadow: gray 4px 8px 4px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.blog-img{
+    /* width:90%; */
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    /* position: relative;
+    top: 12px; */
 }
