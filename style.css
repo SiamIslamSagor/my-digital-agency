@@ -137,3 +137,18 @@
     margin-bottom: 20px;
     
 }
+
+.call-bar{
+    display: flex;
+    width: 70%;
+    background-color: rgba(228, 25, 25, 0.8);
+    align-items: center;
+    margin: -30px auto auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.call-icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
